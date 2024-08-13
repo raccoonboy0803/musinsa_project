@@ -7,7 +7,6 @@ function RootLayout({ children }: PropsWithChildren) {
     <>
       <CategoryHeader />
       <div>{children}</div>
-      <Navigationbar />
     </>
   );
 }
