@@ -1,13 +1,15 @@
 import Footer from '@/components/Footer';
 import Navigationbar from '@/components/Navigationbar';
 import React, { PropsWithChildren } from 'react';
+import LoginHeader from './components/LoginHeader';
 
-function RootLayout({ children }: PropsWithChildren) {
+function LoginLayout({ children }: PropsWithChildren) {
   return (
     <>
+      <LoginHeader />
       <div>{children}</div>
     </>
   );
 }
 
-export default RootLayout;
+export default LoginLayout;
