@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: AppleSDGothicNeo, 'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', sans-serif;
+}
+
 ul {
   list-style: none; /* 기본 리스트 마커 제거 */
   padding-left: 0; /* 왼쪽 패딩 제거 */
