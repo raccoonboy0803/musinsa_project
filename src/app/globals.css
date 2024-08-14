@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ul {
+  list-style: none; /* 기본 리스트 마커 제거 */
+  padding-left: 0; /* 왼쪽 패딩 제거 */
+}
+
+li {
+  position: relative;
+  padding-left: 12px; /* 마커와 텍스트 사이의 공간을 확보 */
+}
+
+li::before {
+  content: '•'; /* 커스텀 마커 */
+  color: black; /* 마커 색상 */
+  font-size: 8px; /* 마커 크기 */
+  position: absolute;
+  left: 0; /* 마커 위치 조정 */
+  top: 50%; /* 수직 중앙 정렬 */
+  transform: translateY(-50%); /* 정확한 수직 중앙 정렬 */
+  margin-right: 4px; /* 텍스트와의 간격 */
+}
