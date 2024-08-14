@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import GoodsDescription from '../_components/GoodsDescription';
+import Link from 'next/link';
 
 function GoodsPage() {
   return (
@@ -40,6 +41,14 @@ function GoodsPage() {
         </button>
       </div>
       <div className="h-[10px] w-full bg-[#f1f1f1]" />
+      <div className="h-[36px] px-[15px] my-[20px] flex gap-[4px]">
+        <Link href={'/'} className="px-[8px] h-[36px] text-[#777777] bg-[#f1f1f1] text-[12px] inline-flex items-center">
+          #맨투맨
+        </Link>
+        <Link href={'/'} className="px-[8px] h-[36px] text-[#777777] bg-[#f1f1f1] text-[12px] inline-flex items-center">
+          #스웻셔츠
+        </Link>
+      </div>
       <GoodsDescription />
     </div>
   );
