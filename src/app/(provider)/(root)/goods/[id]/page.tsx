@@ -2,6 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import GoodsDescription from '../_components/GoodsDescription';
 import Link from 'next/link';
+import GoodsReviewSection from '../_components/GoodsReviewSection';
+import ReviewStars from '../_components/ReviewStars';
+import TotalReviewPhotos from '../_components/TotalReviewPhotos';
 
 function GoodsPage() {
   return (
@@ -50,6 +53,7 @@ function GoodsPage() {
         </Link>
       </div>
       <GoodsDescription />
+      <GoodsReviewSection />
     </div>
   );
 }
