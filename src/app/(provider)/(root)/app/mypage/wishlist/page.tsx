@@ -1,6 +1,6 @@
 import React from 'react';
-import WishProductsList from './components/WishProductsList';
-import TopButtonsBar from './components/TopButtonsBar';
+import WishProductsList from './_components/WishProductsList';
+import TopButtonsBar from './_components/TopButtonsBar';
 
 function WishlistPage() {
   return (
