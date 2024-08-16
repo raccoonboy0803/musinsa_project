@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer';
 import Navigationbar from '@/components/Navigationbar';
 import React, { PropsWithChildren } from 'react';
-import WishlistHeader from './components/WishlistHeader';
+import WishlistHeader from './_components/WishlistHeader';
 
 function MainlLayout({ children }: PropsWithChildren) {
   return (

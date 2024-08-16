@@ -7,7 +7,7 @@ function CartlLayout({ children }: PropsWithChildren) {
     <div className="relative">
       <GoodsHeader />
       <div>{children}</div>
-      <GoodsBottomBar />
+      {/* <GoodsBottomBar /> */}
     </div>
   );
 }

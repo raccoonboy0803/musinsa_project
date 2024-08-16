@@ -16,7 +16,7 @@ li {
   padding-left: 12px; /* 마커와 텍스트 사이의 공간을 확보 */
 }
 
-li::before {
+.li-with-dot::before {
   content: '•'; /* 커스텀 마커 */
   color: black; /* 마커 색상 */
   font-size: 8px; /* 마커 크기 */

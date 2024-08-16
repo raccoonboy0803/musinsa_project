@@ -3,7 +3,7 @@ import React from 'react';
 
 function GoodsDescription() {
   return (
-    <div>
+    <div className="border-b-[10px] border-[#f1f1f1]">
       <div className="flex h-[50px] w-full text-[14px] text-[#6e6e6e] border-b border-[#cccccc]">
         <button className="w-1/5">정보</button>
         <button className="w-1/5">사이즈</button>
@@ -24,7 +24,6 @@ function GoodsDescription() {
         >
           <source src="https://k9638927.hgodo.com/GROOVE/2023FW/YUQI.mp4" />
         </video>
-        {/* <div className="relative w-[600px] h-[600px]"> */}
 
         <Image
           src={'/sample/product_detail_sample_1.jpg'}
