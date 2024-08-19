@@ -1,6 +1,6 @@
 import React from 'react';
-import CategoryItemsHeader from '../../_components/CategoryItemsHeader';
-import CategoryProductCard from '../../_components/CategoryProductCard';
+import CategoryItemsHeader from '../_components/CategoryItemsHeader';
+import CategoryProductCard from '../_components/CategoryProductCard';
 
 function page() {
   return (

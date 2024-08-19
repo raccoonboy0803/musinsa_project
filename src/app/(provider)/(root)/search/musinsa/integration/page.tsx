@@ -1,5 +1,5 @@
 import React from 'react';
-import CategoryProductCard from '../../../categories/_components/CategoryProductCard';
+import CategoryProductCard from '../../../category/_components/CategoryProductCard';
 
 function SearchResultPage() {
   return (

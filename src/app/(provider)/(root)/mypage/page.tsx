@@ -27,7 +27,7 @@ function MyPage() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col px-[16px] justify-center">
+      <div className="flex flex-col px-[16px] justify-center border-b-[10px] border-[#f5f5f5]">
         <Link href={'/'} className="flex justify-between pt-[24px] pb-[12px] h-[56px]">
           <p className="text-[14px] font-medium">주문 내역</p>
           <Image src={'/mypage/right_arrow.svg'} alt="오른쪽 화살표" width={16} height={16} />
@@ -36,6 +36,9 @@ function MyPage() {
           <p className="text-[14px] font-medium">최근 본 상품</p>
           <Image src={'/mypage/right_arrow.svg'} alt="오른쪽 화살표" width={16} height={16} />
         </Link>
+      </div>
+      <div className="px-[16px] pt-[12px] pb-[72px]">
+        <button className="text-[13px] font-medium text-[#666666] underline">로그아웃</button>
       </div>
     </div>
   );
